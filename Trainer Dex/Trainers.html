@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Pokémon Trainers</title>
+    <style>
+        /* CSS styles (unchanged from the previous example) */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            background-color: #e62117;
+            color: white;
+            padding: 5px 0;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .trainer-card {
+            background-color: white;
+            border: 0px solid #ddd;
+            border-radius: 0px;
+            padding: 20px;
+            margin: 0px;
+            text-align: center;
+            box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.0);
+            display: inline-block;
+            width: 0px;
+        }
+
+        .trainer-card img {
+            max-width: 100%;
+        }
+
+        .trainer-name {
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .game-name {
+            color: #888;
+	    white-space: normal;
+	    word-wrap: break-word;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Pokémon Trainers</h1>
+    </header>
+
+    <!-- Protagonists Section -->
+    <section>
+        <h2>Protagonists</h2>
+        <div class="trainer-container" style="border: 2px solid #ddd; display: inline-block; padding: 0px;  margin-right: 50px">
+
+    <div class="trainer-card" style="width: 100px; background-color: transparent;">
+        <img src="img/red.png" alt="Red">
+        <div class="trainer-name">Red</div>
+        <div class="region-name" style="font-size: 12px;">Kanto</div>
+        <div class="game-name" style="font-size: 11px;">Red/Green/Blue/<br>Yellow</div>
+    </div>
+
+    <div class="trainer-card" style="width: 100px; margin-left: 0px; background-color: transparent;">
+        <img src="img/leaf.png" alt="Leaf">
+        <div class="trainer-name">Leaf</div>
+        <div class="region-name" style="font-size: 12px;">Kanto</div>
+        <div class="game-name" style="font-size: 11px;">FireRed/LeafGreen</div>
+    </div>
+</div>
+
+        <div class="trainer-container" style="border: 2px solid #ddd; display: inline-block; padding: 0px;  margin-right: 50px">
+
+	<div class="trainer-card" style="width: 109px; background-color: transparent;">
+            <img src="img/ethan.png" alt="Ethan">
+            <div class="trainer-name">Ethan</div>
+    	    <div class="region-name" style="font-size: 12px;">Johto</div>
+    	    <div class="game-name" style="font-size: 11px;">Gold/Silver/Crystal/<br>HeartGold/<br>SoulSilver</div>
+        </div>
+
+	<div class="trainer-card" style="width: 122px; background-color: transparent;">
+            <img src="img/kris.png" alt="Kris">
+            <div class="trainer-name">Kris</div>
+    	    <div class="region-name" style="font-size: 12px;">Johto</div>
+    	    <div class="game-name" style="font-size: 11px;">Gold/Silver/Crystal</div>
+        </div>
+
+	<div class="trainer-card" style="width: 102px; margin-right: 0px; background-color: transparent;">
+            <img src="img/lyra.png" alt="Lyra">
+            <div class="trainer-name">Lyra</div>
+    	    <div class="region-name" style="font-size: 12px;">Johto</div>
+    	    <div class="game-name" style="font-size: 11px;">HeartGold/<br>SoulSilver</div>
+        </div>
+</div>
+
+        <div class="trainer-container" style="border: 2px solid #ddd; display: inline-block; padding: 0px; margin-right: 0px">
+
+	<div class="trainer-card" style="width: 90px; background-color: transparent;">
+            <img src="img/brendan.png" alt="Brendan">
+            <div class="trainer-name">Brendan</div>
+    	    <div class="region-name" style="font-size: 12px;">Hoenn</div>
+    	    <div class="game-name" style="font-size: 11px;">Ruby/Sapphire/<br>Emerald/Omega Ruby/Alpha Sapphire</div>
+        </div>
+
+	<div class="trainer-card" style="width: 115px; background-color: transparent;">
+            <img src="img/may.png" alt="May">
+            <div class="trainer-name">May</div>
+    	    <div class="region-name" style="font-size: 12px;">Hoenn</div>
+    	    <div class="game-name" style="font-size: 11px;">Ruby/Sapphire/<br>Emerald/Omega Ruby/Alpha Sapphire</div>
+        </div>
+</div>
+
+        <div class="trainer-container" style="border: 2px solid #ddd; display: inline-block; padding: 0px;  margin-right: 50px">
+
+	<div class="trainer-card" style="width: 100px; background-color: transparent;">
+            <img src="img/lucas.png" alt="Lucas">
+            <div class="trainer-name">Lucas</div>
+    	    <div class="region-name" style="font-size: 12px;">Sinnoh</div>
+    	    <div class="game-name" style="font-size: 10px;">Diamond/Pearl/<br>Platinum/Brilliant Diamond/Shining Pearl</div>
+        </div>
+
+	<div class="trainer-card" style="width: 130px; margin-right: 0px; background-color: transparent;">
+            <img src="img/dawn.png" alt="Dawn">
+            <div class="trainer-name">Dawn</div>
+    	    <div class="region-name" style="font-size: 12px;">Sinnoh</div>
+    	    <div class="game-name" style="font-size: 10px;">Diamond/Pearl/<br>Platinum/Brilliant Diamond/Shining Pearl</div>
+        </div>
+</div>
+
+        <div class="trainer-container" style="border: 2px solid #ddd; display: inline-block; padding: 0px;  margin-top: 10px; margin-right: 50px">
+
+	<div class="trainer-card" style="width: 100px; background-color: transparent;">
+            <img src="img/hilbert.png" alt="Hilbert">
+            <div class="trainer-name">Hilbert</div>
+    	    <div class="region-name" style="font-size: 12px;">Unova</div>
+    	    <div class="game-name" style="font-size: 11px;">Black/White</div>
+        </div>
+
+	<div class="trainer-card" style="width: 110px; background-color: transparent;">
+            <img src="img/hilda.png" alt="Hilda">
+            <div class="trainer-name">Hilda</div>
+    	    <div class="region-name" style="font-size: 12px;">Unova</div>
+    	    <div class="game-name" style="font-size: 11px;">Black/White</div>
+        </div>
+
+	<div class="trainer-card" style="width: 110px; background-color: transparent;">
+            <img src="img/nate.png" alt="Nate">
+            <div class="trainer-name">Nate</div>
+    	    <div class="region-name" style="font-size: 12px;">Unova</div>
+    	    <div class="game-name" style="font-size: 11px;">Black 2/White 2</div>
+        </div>
+
+	<div class="trainer-card" style="width: 96px; background-color: transparent;">
+            <img src="img/rosa.png" alt="Rosa">
+            <div class="trainer-name">Rosa</div>
+    	    <div class="region-name" style="font-size: 12px;">Unova</div>
+    	    <div class="game-name" style="font-size: 11px;">Black 2/White 2</div>
+        </div>
+</div>
+
+        <div class="trainer-container" style="border: 2px solid #ddd; display: inline-block; padding: 0px; margin-top: 10px; margin-right: 50px">
+
+	<div class="trainer-card" style="width: 120px; background-color: transparent;">
+            <img src="img/calem.png" alt="Calem">
+            <div class="trainer-name">Calem</div>
+    	    <div class="region-name" style="font-size: 12px;">Kalos</div>
+    	    <div class="game-name" style="font-size: 11px;">X/Y</div>
+        </div>
+
+	<div class="trainer-card" style="width: 133px; background-color: transparent;">
+            <img src="img/serena.png" alt="Serena">
+            <div class="trainer-name">Serena</div>
+    	    <div class="region-name" style="font-size: 12px;">Kalos</div>
+    	    <div class="game-name" style="font-size: 11px;">X/Y</div>
+        </div>
+</div>
+
+        <div class="trainer-container" style="border: 2px solid #ddd; display: inline-block; padding: 0px; margin-top: 10px; margin-right: 50px">
+	<div class="trainer-card" style="width: 110px; background-color: transparent;">
+            <img src="img/elio.png" alt="Elio">
+            <div class="trainer-name">Elio</div>
+    	    <div class="region-name" style="font-size: 12px;">Alola</div>
+    	    <div class="game-name" style="font-size: 11px;">Sun/Moon/Ultra Sun/Ultra Moon</div>
+        </div>
+
+	<div class="trainer-card" style="width: 110px; background-color: transparent;">
+            <img src="img/selene.png" alt="Selene">
+            <div class="trainer-name">Selene</div>
+    	    <div class="region-name" style="font-size: 12px;">Alola</div>
+    	    <div class="game-name" style="font-size: 11px;">Sun/Moon/Ultra Sun/Ultra Moon</div>
+        </div>
+</div>
+
+        <div class="trainer-container" style="border: 2px solid #ddd; display: inline-block; padding: 0px; margin-top: 10px; margin-right: 50px">
+
+	<div class="trainer-card" style="width: 120px; background-color: transparent;">
+            <img src="img/victor.png" alt="Victor">
+            <div class="trainer-name">Victor</div>
+    	    <div class="region-name" style="font-size: 12px;">Galar</div>
+    	    <div class="game-name" style="font-size: 11px;">Sword/Shield</div>
+        </div>
+
+	<div class="trainer-card" style="width: 135px; background-color: transparent;">
+            <img src="img/gloria.png" alt="Gloria">
+            <div class="trainer-name">Gloria</div>
+    	    <div class="region-name" style="font-size: 12px;">Galar</div>
+    	    <div class="game-name" style="font-size: 11px;">Sword/Shield</div>
+        </div>
+</div>
+
+        <div class="trainer-container" style="border: 2px solid #ddd; display: inline-block; padding: 0px; margin-top: 10px; margin-right: 50px">
+
+	<div class="trainer-card" style="width: 145px; background-color: transparent;">
+            <img src="img/rei.png" alt="Rei">
+            <div class="trainer-name">Rei</div>
+    	    <div class="region-name" style="font-size: 12px;">Hisui</div>
+    	    <div class="game-name" style="font-size: 11px;">Legends Arceus</div>
+        </div>
+
+	<div class="trainer-card" style="width: 150px; background-color: transparent;">
+            <img src="img/akari.png" alt="Akari">
+            <div class="trainer-name">Akari</div>
+    	    <div class="region-name" style="font-size: 12px;">Hisui</div>
+    	    <div class="game-name" style="font-size: 11px;">Legends Arceus</div>
+        </div>
+</div>
+
+        <div class="trainer-container" style="border: 2px solid #ddd; display: inline-block; padding: 0px; margin-top: 10px; margin-right: 50px">
+
+	<div class="trainer-card" style="width: 88px; background-color: transparent;">
+            <img src="img/florian.png" alt="Florian">
+            <div class="trainer-name">Florian</div>
+    	    <div class="region-name" style="font-size: 12px;">Paldea</div>
+    	    <div class="game-name" style="font-size: 11px;">Scarlet/Violet</div>
+        </div>
+
+	<div class="trainer-card" style="width: 116px; background-color: transparent;">
+            <img src="img/juliana.png" alt="Juliana">
+            <div class="trainer-name">Juliana</div>
+    	    <div class="region-name" style="font-size: 12px;">Paldea</div>
+    	    <div class="game-name" style="font-size: 11px;">Scarlet/Violet</div>
+        </div>
+</div>
+
+        <!-- Add more protagonist trainer cards here -->
+    </section>
+
+    <!-- Rivals Section -->
+    <section>
+        <h2>Rivals</h2>
+        <div class="trainer-container" style="border: 2px solid #ddd; display: inline-block; padding: 0px;  margin-right: 50px">
+
+       <div class="trainer-card" style="width: 165px; background-color: transparent;">
+            <img src="img/blue.png" alt="Blue">
+            <div class="trainer-name">Blue</div>
+    	    <div class="region-name" style="font-size: 12px;">Kanto</div>
+    	    <div class="game-name" style="font-size: 11px;">Red/Green/Blue/Yellow/<br>FireRed/LeafGreen</div>
+        </div>
+</div>
+
+        <div class="trainer-container" style="border: 2px solid #ddd; display: inline-block; padding: 0px;  margin-right: 50px">
+
+  	<div class="trainer-card" style="width: 105px; background-color: transparent;">
+            <img src="img/silver.png" alt="Silver">
+            <div class="trainer-name">Silver</div>
+    	    <div class="region-name" style="font-size: 12px;">Johto</div>
+    	    <div class="game-name" style="font-size: 11px;">Gold/Silver/Crystal/<br>HeartGold/<br>SoulSilver</div>
+        </div>
+</div>
+
+        <div class="trainer-container" style="border: 2px solid #ddd; display: inline-block; padding: 0px;  margin-right: 50px">
+
+	<div class="trainer-card" style="width: 175px; background-color: transparent;">
+            <img src="img/wally.png" alt="Wally">
+            <div class="trainer-name">Wally</div>
+    	    <div class="region-name" style="font-size: 12px;">Hoenn</div>
+    	    <div class="game-name" style="font-size: 11px;">Ruby/Sapphire/Emerald/<br>Omega Ruby/Alpha Sapphire</div>
+        </div>
+</div>
+
+        <div class="trainer-container" style="border: 2px solid #ddd; display: inline-block; padding: 0px;  margin-right: 50px">
+
+	<div class="trainer-card" style="width: 105px; background-color: transparent;">
+            <img src="img/barry.png" alt="Barry">
+            <div class="trainer-name">Barry</div>
+    	    <div class="region-name" style="font-size: 12px;">Sinnoh</div>
+    	    <div class="game-name" style="font-size: 11px;">Diamond/Pearl/<br>Platinum/Brilliant Diamond/Shining Pearl</div>
+        </div>
+</div>
+
+	<div class="trainer-container" style="border: 2px solid #ddd; display: inline-block; padding: 0px;  margin-right: 50px; margin-top: 10px">
+
+	<div class="trainer-card" style="width: 95px; background-color: transparent;">
+            <img src="img/cheren.png" alt="Cheren">
+            <div class="trainer-name">Cheren</div>
+    	    <div class="region-name" style="font-size: 12px;">Unova</div>
+    	    <div class="game-name" style="font-size: 11px;">Black/White</div>
+        </div>
+
+	<div class="trainer-card" style="width: 135px; background-color: transparent;">
+            <img src="img/bianca.png" alt="Bianca">
+            <div class="trainer-name">Bianca</div>
+    	    <div class="region-name" style="font-size: 12px;">Unova</div>
+    	    <div class="game-name" style="font-size: 11px;">Black/White</div>
+        </div>
+
+	<div class="trainer-card" style="width: 185px; background-color: transparent;">
+            <img src="img/n.png" alt="N">
+            <div class="trainer-name">N</div>
+    	    <div class="region-name" style="font-size: 12px;">Unova</div>
+    	    <div class="game-name" style="font-size: 11px;">Black/White</div>
+        </div>
+
+	<div class="trainer-card" style="width: 115px; background-color: transparent;">
+            <img src="img/hugh.png" alt="Hugh">
+            <div class="trainer-name">Hugh</div>
+    	    <div class="region-name" style="font-size: 12px;">Unova</div>
+    	    <div class="game-name" style="font-size: 11px;">Black 2/White 2</div>
+        </div>
+</div>
+
+	<div class="trainer-container" style="border: 2px solid #ddd; display: inline-block; padding: 0px;  margin-top: 10px; margin-right: 50px">
+
+	<div class="trainer-card" style="width: 115px; background-color: transparent;">
+            <img src="img/shauna.png" alt="Shauna">
+            <div class="trainer-name">Shauna</div>
+    	    <div class="region-name" style="font-size: 12px;">Kalos</div>
+    	    <div class="game-name" style="font-size: 11px;">X/Y</div>
+        </div>
+
+	<div class="trainer-card" style="width: 165px; background-color: transparent;">
+            <img src="img/tierno.png" alt="Tierno">
+            <div class="trainer-name">Tierno</div>
+    	    <div class="region-name" style="font-size: 12px;">Kalos</div>
+    	    <div class="game-name" style="font-size: 11px;">X/Y</div>
+        </div>
+
+	<div class="trainer-card" style="width: 125px; background-color: transparent;">
+            <img src="img/trevor.png" alt="Trevor">
+            <div class="trainer-name">Trevor</div>
+    	    <div class="region-name" style="font-size: 12px;">Kalos</div>
+    	    <div class="game-name" style="font-size: 11px;">X/Y</div>
+        </div>
+</div>
+
+	<div class="trainer-container" style="border: 2px solid #ddd; display: inline-block; padding: 0px;  margin-top: 10px; margin-right: 50px">
+
+	<div class="trainer-card" style="width: 115px; background-color: transparent;">
+            <img src="img/hau.png" alt="Hau">
+            <div class="trainer-name">Hau</div>
+    	    <div class="region-name" style="font-size: 12px;">Alola</div>
+    	    <div class="game-name" style="font-size: 11px;">Sun/Moon/Ultra Sun/Ultra Moon</div>
+        </div>
+
+	<div class="trainer-card" style="width: 115px; background-color: transparent;">
+            <img src="img/gladion.png" alt="Gladion">
+            <div class="trainer-name">Gladion</div>
+    	    <div class="region-name" style="font-size: 12px;">Alola</div>
+    	    <div class="game-name" style="font-size: 11px;">Sun/Moon/Ultra Sun/Ultra Moon</div>
+        </div>
+</div>
+
+	<div class="trainer-container" style="border: 2px solid #ddd; display: inline-block; padding: 0px;  margin-top: 10px; margin-right: 50px">
+
+	<div class="trainer-card" style="width: 105px; background-color: transparent;">
+            <img src="img/hop.png" alt="Hop">
+            <div class="trainer-name">Hop</div>
+    	    <div class="region-name" style="font-size: 12px;">Galar</div>
+    	    <div class="game-name" style="font-size: 11px;">Sword/Shield</div>
+        </div>
+
+	<div class="trainer-card" style="width: 94px; background-color: transparent;">
+            <img src="img/bede.png" alt="Bede">
+            <div class="trainer-name">Bede</div>
+    	    <div class="region-name" style="font-size: 12px;">Galar</div>
+    	    <div class="game-name" style="font-size: 11px;">Sword/Shield</div>
+        </div>
+
+	<div class="trainer-card" style="width: 100px; background-color: transparent;">
+            <img src="img/marnie.png" alt="Marnie">
+            <div class="trainer-name">Marnie</div>
+    	    <div class="region-name" style="font-size: 12px;">Galar</div>
+    	    <div class="game-name" style="font-size: 11px;">Sword/Shield</div>
+        </div>
+
+	<div class="trainer-card" style="width: 100px; background-color: transparent;">
+            <img src="img/klara.png" alt="Klara">
+            <div class="trainer-name">Klara</div>
+    	    <div class="region-name" style="font-size: 12px;">Galar</div>
+    	    <div class="game-name" style="font-size: 11px;">Sword/Shield</div>
+        </div>
+
+	<div class="trainer-card" style="width: 100px; background-color: transparent;">
+            <img src="img/avery.png" alt="Avery">
+            <div class="trainer-name">Avery</div>
+    	    <div class="region-name" style="font-size: 12px;">Galar</div>
+    	    <div class="game-name" style="font-size: 11px;">Sword/Shield</div>
+        </div>
+</div>
+
+	<div class="trainer-container" style="border: 2px solid #ddd; display: inline-block; padding: 0px;  margin-top: 10px; margin-right: 50px">
+
+	<div class="trainer-card" style="width: 105px; background-color: transparent;">
+            <img src="img/nemona.png" alt="Nemona">
+            <div class="trainer-name">Nemona</div>
+    	    <div class="region-name" style="font-size: 12px;">Paldea</div>
+    	    <div class="game-name" style="font-size: 11px;">Scarlet/Violet</div>
+        </div>
+
+	<div class="trainer-card" style="width: 130px; background-color: transparent;">
+            <img src="img/arven.png" alt="Arven">
+            <div class="trainer-name">Arven</div>
+    	    <div class="region-name" style="font-size: 12px;">Paldea</div>
+    	    <div class="game-name" style="font-size: 11px;">Scarlet/Violet</div>
+        </div>
+
+	<div class="trainer-card" style="width: 120px; background-color: transparent;">
+            <img src="img/carmine.png" alt="Carmine">
+            <div class="trainer-name">Carmine</div>
+    	    <div class="region-name" style="font-size: 12px;">Kitakami</div>
+    	    <div class="game-name" style="font-size: 11px;">Scarlet/Violet</div>
+        </div>
+
+	<div class="trainer-card" style="width: 95px; background-color: transparent;">
+            <img src="img/kieran.png" alt="Kieran">
+            <div class="trainer-name">Kieran</div>
+    	    <div class="region-name" style="font-size: 12px;">Kitakami</div>
+    	    <div class="game-name" style="font-size: 11px;">Scarlet/Violet</div>
+        </div>
+</div>
+
+        <!-- Add more rival trainer cards here -->
+    </section>
+
+    <!-- Champions Section -->
+    <section>
+        <h2>Champions</h2>
+
+<div class="trainer-container" style="border: 2px solid #ddd; display: inline-block; padding: 0px; margin-right: 50px">
+       <div class="trainer-card" style="width: 125px; background-color: transparent;">
+            <img src="img/bluechampion.png" alt="Blue">
+            <div class="trainer-name">Blue</div>
+    	    <div class="region-name" style="font-size: 12px;">Kanto</div>
+    	    <div class="game-name" style="font-size: 11px;">Red/Green/Blue/Yellow/<br>FireRed/LeafGreen</div>
+        </div>
+</div>
+
+<div class="trainer-container" style="border: 2px solid #ddd; display: inline-block; padding: 0px; margin-right: 50px">
+
+	<div class="trainer-card" style="width: 155px; background-color: transparent;">
+            <img src="img/lance.png" alt="Lance">
+            <div class="trainer-name">Lance</div>
+    	    <div class="region-name" style="font-size: 12px;">Johto</div>
+    	    <div class="game-name" style="font-size: 11px;">Gold/Silver/Crystal/<br>HeartGold/SoulSilver</div>
+        </div>
+</div>
+
+<div class="trainer-container" style="border: 2px solid #ddd; display: inline-block; padding: 0px; margin-right: 50px">
+
+	<div class="trainer-card" style="width: 135px; background-color: transparent;">
+            <img src="img/steven.png" alt="Steven">
+            <div class="trainer-name">Steven</div>
+    	    <div class="region-name" style="font-size: 12px;">Hoenn</div>
+    	    <div class="game-name" style="font-size: 11px;">Ruby/Sapphire/<br>Omega Ruby/Alpha Sapphire</div>
+        </div>
+
+	<div class="trainer-card" style="width: 125px; background-color: transparent;">
+            <img src="img/wallacechampion.png" alt="Wallace">
+            <div class="trainer-name">Wallace</div>
+    	    <div class="region-name" style="font-size: 12px;">Hoenn</div>
+    	    <div class="game-name" style="font-size: 11px;">Emerald</div>
+        </div>
+</div>
+
+<div class="trainer-container" style="border: 2px solid #ddd; display: inline-block; padding: 0px; margin-right: 50px">
+
+	<div class="trainer-card" style="width: 125px; background-color: transparent;">
+            <img src="img/cynthia.png" alt="Cynthia">
+            <div class="trainer-name">Cynthia</div>
+    	    <div class="region-name" style="font-size: 12px;">Sinnoh</div>
+    	    <div class="game-name" style="font-size: 11px;">Diamond/Pearl/Platinum/Brilliant Diamond/Shining Pearl</div>
+        </div>
+</div>
+
+<div class="trainer-container" style="border: 2px solid #ddd; display: inline-block; padding: 0px; margin-right: 50px; margin-top: 10px">
+
+	<div class="trainer-card" style="width: 175px; background-color: transparent;">
+            <img src="img/alder.png" alt="Alder">
+            <div class="trainer-name">Alder</div>
+    	    <div class="region-name" style="font-size: 12px;">Unova</div>
+    	    <div class="game-name" style="font-size: 11px;">Black/White</div>
+        </div>
+
+	<div class="trainer-card" style="width: 235px; background-color: transparent;">
+            <img src="img/iris.png" alt="Iris">
+            <div class="trainer-name">Iris</div>
+    	    <div class="region-name" style="font-size: 12px;">Unova</div>
+    	    <div class="game-name" style="font-size: 11px;">Black 2/White 2</div>
+        </div>
+</div>
+
+<div class="trainer-container" style="border: 2px solid #ddd; display: inline-block; padding: 0px; margin-right: 50px; margin-top: 10px">
+
+	<div class="trainer-card" style="width: 165px; background-color: transparent;">
+            <img src="img/diantha.png" alt="Diantha">
+            <div class="trainer-name">Diantha</div>
+    	    <div class="region-name" style="font-size: 12px;">Kalos</div>
+    	    <div class="game-name" style="font-size: 11px;">X/Y</div>
+        </div>
+</div>
+
+<div class="trainer-container" style="border: 2px solid #ddd; display: inline-block; padding: 0px; margin-right: 50px; margin-top: 10px">
+
+	<div class="trainer-card" style="width: 225px; background-color: transparent;">
+            <img src="img/leon.png" alt="Leon">
+            <div class="trainer-name">Leon</div>
+    	    <div class="region-name" style="font-size: 12px;">Galar</div>
+    	    <div class="game-name" style="font-size: 11px;">Sword/Shield</div>
+        </div>
+</div>
+
+<div class="trainer-container" style="border: 2px solid #ddd; display: inline-block; padding: 0px; margin-right: 50px; margin-top: 10px">
+
+	<div class="trainer-card" style="width: 115px; background-color: transparent;">
+            <img src="img/geeta.png" alt="Geeta">
+            <div class="trainer-name">Geeta</div>
+    	    <div class="region-name" style="font-size: 12px;">Paldea</div>
+    	    <div class="game-name" style="font-size: 11px;">Scarlet/Violet</div>
+        </div>
+
+	<div class="trainer-card" style="width: 105px; background-color: transparent;">
+            <img src="img/nemona.png" alt="Nemona">
+            <div class="trainer-name">Nemona</div>
+    	    <div class="region-name" style="font-size: 12px;">Paldea</div>
+    	    <div class="game-name" style="font-size: 11px;">Scarlet/Violet</div>
+        </div>
+
+
+        <!-- Add more champion trainer cards here -->
+    </section>
+
+    <!-- Elite Four Section -->
+    <section>
+        <h2>Elite Four</h2>
+        <div class="trainer-card">
+            <img src="elitefour1.jpg" alt="Elite Four 1">
+            <div class="trainer-name">Elite Four 1</div>
+            <div class="game-name">Pokémon Red/Blue</div>
+        </div>
+
+        <!-- Add more Elite Four trainer cards here -->
+    </section>
+
+    <!-- Evil Teams Section -->
+    <section>
+        <h2>Evil Teams</h2>
+        <div class="trainer-card">
+            <img src="evilteam1.jpg" alt="Evil Team 1">
+            <div class="trainer-name">Evil Team 1</div>
+            <div class="game-name">Pokémon Red/Blue</div>
+        </div>
+
+        <!-- Add more Evil Team trainer cards here -->
+    </section>
+
+    <!-- Gym Leaders Section -->
+    <section>
+        <h2>Gym Leaders</h2>
+        <div class="trainer-card">
+            <img src="gymleader1.jpg" alt="Gym Leader 1">
+            <div class="trainer-name">Gym Leader 1</div>
+            <div class="game-name">Pokémon Red/Blue</div>
+        </div>
+
+        <!-- Add more Gym Leader trainer cards here -->
+    </section>
+
+    <!-- Professors Section -->
+    <section>
+        <h2>Professors</h2>
+        <div class="trainer-card">
+            <img src="professor1.jpg" alt="Professor 1">
+            <div class="trainer-name">Professor 1</div>
+            <div class="game-name">Pokémon Red/Blue</div>
+        </div>
+
+        <!-- Add more Professor trainer cards here -->
+    </section>
+
+    <!-- Frontier Brains Section -->
+    <section>
+        <h2>Frontier Brains</h2>
+        <div class="trainer-card">
+            <img src="frontierbrain1.jpg" alt="Frontier Brain 1">
+            <div class="trainer-name">Frontier Brain 1</div>
+            <div class="game-name">Pokémon Red/Blue</div>
+        </div>
+
+        <!-- Add more Frontier Brain trainer cards here -->
+    </section>
+
+    <!-- Stat Trainers Section -->
+    <section>
+        <h2>Stat Trainers</h2>
+        <div class="trainer-card">
+            <img src="stattrainer1.jpg" alt="Stat Trainer 1">
+            <div class="trainer-name">Stat Trainer 1</div>
+            <div class="game-name">Pokémon Red/Blue</div>
+        </div>
+
+        <!-- Add more Stat Trainer cards here -->
+    </section>
+
+    <!-- Battle Facility Leaders Section -->
+    <section>
+        <h2>Battle Facility Leaders</h2>
+        <div class="trainer-card">
+            <img src="battleleader1.jpg" alt="Battle Facility Leader 1">
+            <div class="trainer-name">Battle Facility Leader 1</div>
+            <div class="game-name">Pokémon Red/Blue</div>
+        </div>
+
+        <!-- Add more Battle Facility Leader trainer cards here -->
+    </section>
+
+    <!-- Other Section -->
+    <section>
+        <h2>Other</h2>
+        <div class="trainer-card">
+            <img src="other1.jpg" alt="Other Trainer 1">
+            <div class="trainer-name">Other Trainer 1</div>
+            <div class="game-name">Pokémon Red/Blue</div>
+        </div>
+
+        <!-- Add more Other trainer cards here -->
+    </section>
+
+</body>
+</html>
